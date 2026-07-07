@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 06:26:02
+-- Dibuat   : 2026-07-08 06:38:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -717,6 +717,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('Me6wh1UrpiaWeJSCpju4lA6rBIWgKN2u8HlC3SYJ', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.60 Safari/537.36 Edge/12.246', 'eyJfdG9rZW4iOiJzZzZUb2FCa2FOeER2SldlWXQ5NlB5eEJNeTZydjJiZzVJaUIwMUtiIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783437065),
 ('OM4bc2sf0im3bgsaSzP8WJ1comgKsArUvW5lbgZu', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiJaYUNjOTZ1SG5nbVNuaUhFa3hhYjd5Tjl4N09QT3dqNmt0M201YkhzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9jYXJhLW1lbmVudHVrYW4tamVuaXMtZG9rdW1lbi1saW5na3VuZ2FuLXlhbmctdGVwYXQtdW50dWstc2thbGEtYmlzbmlzLWFuZGEiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783456954),
 ('qGjczXwn83awB9KnInFgcfgIAYHGHVn24gt4bXaM', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiJ3SE13VDZpZUVLVlRudTE0dzZVb1BkNmhycGlaSXBMTllxSTNReGQ4IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9rb25zdWx0YXNpLXB1Ymxpay1hbWRhbCIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783433111),
+('rczEIvJZFn6oYD03LNfX2FETS8jwcX16dXpA1Ytu', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiIwbkRpNFRQRkNtNHNCSThJSXRVZU92bzdVbnp0bGZJQ215NFVtcnlUIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783467079),
 ('SDnXWaLPOhqODrVZhlz7n8agMPJCUwYgwM7HdolA', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJRcVdMM2gyT056eHdzc2NJSUs3b0tMT01JVUJVWE1CNVVScEhxZ3QwIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783448050),
 ('t7U2dhIfO6mnmYowaiWLaFkrT0GfkuvH7gQaeA0B', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.60 Safari/537.36 Edge/12.246', 'eyJfdG9rZW4iOiJFT3JPRFo4M3Z0aEdEN1lselF4SURXOEN0Y3E4dlZHbXBGRHIyVzB4IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783437066),
 ('UfScGF7L5DJp8LjzyHLnrCPXzdAc5PY6eC30Skmj', NULL, '10.200.7.1', 'Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0', 'eyJfdG9rZW4iOiJoN25zcVFnWEJXdFlwRDdzMlBRQ3RWSEZkZWd2Z3N4M3V1enlIbmd0IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783436580),
@@ -800,7 +801,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=7944 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7945 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -8826,6 +8827,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (7940, NULL, '52.167.144.237', 'GET', '/blog/cara-menentukan-jenis-dokumen-lingkungan-yang-tepat-untuk-skala-bisnis-anda', 'https://sastrabhinnekakarya.co.id/blog/cara-menentukan-jenis-dokumen-lingkungan-yang-tepat-untuk-skala-bisnis-anda', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 03:42:34', '2026-07-08 03:42:34'),
 (7941, NULL, '40.77.167.23', 'GET', '/blog/strategi-konservasi-sumber-daya-air-perkotaan-melalui-penerapan-konstruksi-ramah-lingkungan-dan-sumur-resapan', 'https://sastrabhinnekakarya.co.id/blog/strategi-konservasi-sumber-daya-air-perkotaan-melalui-penerapan-konstruksi-ramah-lingkungan-dan-sumur-resapan', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 05:43:06', '2026-07-08 05:43:06'),
 (7942, NULL, '52.167.144.197', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 05:54:12', '2026-07-08 05:54:12'),
-(7943, NULL, '5.133.192.140', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36', NULL, '2026-07-08 06:17:39', '2026-07-08 06:17:39');
+(7943, NULL, '5.133.192.140', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36', NULL, '2026-07-08 06:17:39', '2026-07-08 06:17:39'),
+(7944, NULL, '35.233.88.72', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 06:31:19', '2026-07-08 06:31:19');
 
 SET FOREIGN_KEY_CHECKS = 1;
