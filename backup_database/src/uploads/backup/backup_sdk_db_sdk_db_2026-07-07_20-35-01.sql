@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-07 20:23:02
+-- Dibuat   : 2026-07-07 20:35:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -852,6 +852,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('VvVr6OjojLoj8gD7WB2zKm0kgbFQGg12DFpDNdPT', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiJ1QWZRRU9ZdWdsTTg2MGFlMnRQZE12ZWExTVJGUFg4blllbWUyWTNQIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783420191),
 ('vYxGXwdp4I44Fh6XQamJjbA4my6LdfrP6CNhIuL9', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiI1N2lVSDl3SG5lWjBqMWpMWmNOanNUdTYzQlRaVUZDOG5vdGs3SWloIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3RhZz1UZWtub2xvZ2kiLCJyb3V0ZSI6ImJsb2cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783411480),
 ('VzecZz9Z2vtvB21Mf1j3HbuTcAX7U3IwRGrPqgr3', NULL, '10.200.7.1', 'Mozilla/5.0 (Linux; Android 14; SM-S9280) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36', 'eyJfdG9rZW4iOiJNUjBhRDhUUDBBcmZwOHdvZE00bEJaVklyWHJDWTB0NmpiNkFjQlpaIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783411480),
+('WAPex5XBrOkfSV57c6GXWo2SRwAyinolfCadX4RN', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJIclQ5VDA5VVZrUm5mNUk1T3Q0ZFhyMHoyMElFMkxmMGN0QXl4bXMxIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783430713),
 ('wKm2Q5ciLzzfpP7TOOipLuKy2zq8FSFbbsNHL2vJ', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0', 'eyJfdG9rZW4iOiJNUWVQYWx3ZjM5c3oxdFZlSFVsamJBeFAyRHlQUDZZR1F6cU9ZVDVSIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783415392),
 ('WSidJ3wtOX1j5vw3w4UqpWfj3JivjN9mkZYqWp1R', NULL, '10.200.7.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6_7; rv:126.0) Gecko/20100101 Firefox/126.0', 'eyJfdG9rZW4iOiJ3RWVRdGNDcFlmazBvZGhYVmZQamlQaWgwbVdseFBJUTNCYUczMVRSIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783411479),
 ('wtRt3fLnthaafNCdToVsrzReAJMBWiW8uuCfFR4n', NULL, '10.200.7.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.27 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/601.1.27', 'eyJfdG9rZW4iOiJlWDhEaXNjajY5UzBmc3pCcmM1OGY1VW4zV0xyaHNCbkZZdFFjR3RFIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783412963),
@@ -949,7 +950,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=7924 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7925 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -8955,6 +8956,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (7920, NULL, '54.39.190.134', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', NULL, '2026-07-07 20:14:25', '2026-07-07 20:14:25'),
 (7921, NULL, '54.39.182.0', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', NULL, '2026-07-07 20:15:48', '2026-07-07 20:15:48'),
 (7922, NULL, '54.39.190.134', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', NULL, '2026-07-07 20:21:01', '2026-07-07 20:21:01'),
-(7923, NULL, '54.39.190.134', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', NULL, '2026-07-07 20:23:00', '2026-07-07 20:23:00');
+(7923, NULL, '54.39.190.134', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', NULL, '2026-07-07 20:23:00', '2026-07-07 20:23:00'),
+(7924, NULL, '54.39.190.134', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36', NULL, '2026-07-07 20:25:13', '2026-07-07 20:25:13');
 
 SET FOREIGN_KEY_CHECKS = 1;
