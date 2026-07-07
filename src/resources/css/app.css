@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { @apply scroll-smooth; }
+  body { @apply font-sans text-sbk-black antialiased; }
+  h1,h2,h3,h4,h5,h6 { @apply font-heading; }
+}
+
+@layer components {
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-sbk-red text-white font-heading font-bold
+           px-7 py-3.5 rounded-full uppercase tracking-wider text-sm
+           transition-all duration-300 shadow-red
+           hover:bg-sbk-red-dark hover:shadow-red-lg hover:-translate-y-0.5
+           active:scale-95;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-sbk-red text-sbk-red font-heading font-bold
+           px-7 py-3.5 rounded-full uppercase tracking-wider text-sm
+           transition-all duration-300
+           hover:bg-sbk-red hover:text-white hover:-translate-y-0.5
+           active:scale-95;
+  }
+  .btn-white {
+    @apply inline-flex items-center gap-2 bg-white text-sbk-red font-heading font-bold
+           px-7 py-3.5 rounded-full uppercase tracking-wider text-sm
+           transition-all duration-300 shadow-soft
+           hover:shadow-card hover:-translate-y-0.5
+           active:scale-95;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 text-sbk-red font-heading font-bold
+           uppercase tracking-wider text-sm transition-all duration-300
+           hover:gap-3;
+  }
+
+  .section-padding { @apply py-20 lg:py-28; }
+  .container-sbk   { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+
+  .section-tag {
+    @apply inline-flex items-center gap-2 text-sbk-red font-semibold text-xs uppercase tracking-[0.25em] mb-4;
+  }
+  .section-tag::before {
+    content: '';
+    @apply block w-6 h-0.5 bg-sbk-red;
+  }
+  .section-title {
+    @apply font-heading font-black text-4xl lg:text-5xl text-sbk-black leading-tight;
+  }
+  .section-title span { @apply text-sbk-red; }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-card hover:-translate-y-1;
+  }
+
+  .nav-link {
+    @apply font-heading font-semibold text-sm text-sbk-gray-mid
+           transition-all duration-200 hover:text-sbk-red;
+  }
+  .nav-link.active { @apply text-sbk-red; }
+
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+  }
+  .badge-red {
+    @apply badge bg-sbk-red/10 text-sbk-red;
+  }
+  /* Marquee auto-scroll */
+  @keyframes marquee-left {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  @keyframes marquee-right {
+    0%   { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+  .marquee-left {
+    animation: marquee-left 25s linear infinite;
+    width: max-content;
+  }
+  .marquee-right {
+    animation: marquee-right 25s linear infinite;
+    width: max-content;
+  }
+  .marquee-left.paused,
+  .marquee-right.paused {
+    animation-play-state: paused;
+  }
+
+/* ===== SCROLL REVEAL ANIMATIONS ===== */
+[data-reveal] {
+  opacity: 0;
+  visibility: hidden; /* Tambahkan ini agar aman */
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), 
+              transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: opacity, transform;
+}
+
+[data-reveal="fade-up"] { transform: translateY(40px); }
+[data-reveal="fade-down"] { transform: translateY(-40px); }
+[data-reveal="fade-left"] { transform: translateX(-40px); }
+[data-reveal="fade-right"] { transform: translateX(40px); }
+[data-reveal="fade-in"] { transform: scale(0.95); }
+
+/* Class penentu - Harus di bawah agar menang priority */
+[data-reveal].revealed {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Delay classes - Ini bikin efek munculnya bergantian (estetik) */
+[data-delay="100"] { transition-delay: 0.1s; }
+[data-delay="200"] { transition-delay: 0.2s; }
+[data-delay="300"] { transition-delay: 0.3s; }
+[data-delay="400"] { transition-delay: 0.4s; }
+
+
+}

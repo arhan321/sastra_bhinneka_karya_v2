@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /storage/private
+Disallow: /*?*
+
+Sitemap: https://sastrabhinnekakarya.co.id/sitemap.xml
