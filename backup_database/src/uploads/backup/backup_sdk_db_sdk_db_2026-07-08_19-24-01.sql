@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 19:12:02
+-- Dibuat   : 2026-07-08 19:24:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -722,6 +722,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('7TJAYvdgI8BEXNBuVJrbMYL6YV93HeiR0TTnxjt1', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJMVXdKOU9TcWlYY1RpME13YWxlMGlPODdJcmViek1oZmNyUVpvd1NiIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783511812),
 ('7zRC0TmzLBsRQgwrqTlnGjijnzB2bDxQE4YO0xvi', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJvMU5hTHpmNzdFcnlBbUhyNTVEVXg5a2g3OHp5NWdOeEF2RWtMTjJjIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783512313),
 ('8v3jx6wxxgzigy8BbKG3j53vrxcOVyF7DC0lgNct', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJodXB6N3I5cGg2dzNobGUwRUw5bG01OFpEZWs4djdNYWROM3BvdzBaIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783512274),
+('Af8ZeDX8kHTFC2ke0gdZkSFlDgaK2k15kdMe6eGy', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiJtUGdLU0ptNXg1dmtLNzhDUVRycFBuTHFJREIxMDZINGpSR3BjbTdYIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783512872),
 ('aMocwLUb5UivpgpmlmbEOaGsRDGBXA9NI5KYp1n2', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJaZlRxSUhPNnppOFRVaGVMdlB5cElmZ2RrTFpOb3VFSzZSOHBwbGczIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kb2t1bWVuLXNwcGwtZGktb3NzIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783507828),
 ('AUN07hLCJZQwCHZXy0Hwm5Zv7z0QcglfZcCEQoN8', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ4TjB2UkV0Wml0dGdiU1FsQWlVSWF3cEhPYXphTVJUTndnV3dqUFJNIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783511695),
 ('AxCFzghQg74xzG1APrCvPgowfMEi2wtRHDWXQM8V', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJselBHMjZ3a0xFbFg3R083QlVMaURObnAwWHRyZ1VySzhxZVYwbGNIIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783511502),
@@ -746,11 +747,12 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('ghfzqrH7BgCbIbV9d6bXJshAhYrI0pxSQc7uJHxi', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJFckxaMm1ubVZTTk8yM09Qb1NiTFkwOHV3bHJja3AxcndqSG1tTHBHIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783510658),
 ('GYLQ5DeTtZ4KOir8BbOxIeUS2M1Fr767rxRj4J3s', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJxdk11NHczUXNzRTBVMXVaWWd5MHo5eVRHbml5ZTJEWm1wdmxoaTQ1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9rbGllbiIsInJvdXRlIjoiY2xpZW50cyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783511662),
 ('GZbbc9NOnexwEjVqW7XnXmlqIrdSUbdgoOCLJf9T', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJLVTNKeWl4M0pEc0xxWmpydGFlTUlKc20zdDdsS0EybEd6TUJKQ2lTIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783510903),
+('h2mzN9Bdr54Aowkepo5B7NA92DCjs5Kwt6LNJHyN', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiI5c0ZlM2IwOTZhQmlNSElrM1I1OExzR0J6TDkwNngzY0xmemRiaW9rIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783513280),
 ('hKlu73clejGrMcV90XL9Nt7t2ghS3H04OrwOYXWN', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJwSVc1TERsd0pBczY5VnNETmhpbkpJeEY2aGU0VFFibUxFeDVLd3gzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9rbGllbiIsInJvdXRlIjoiY2xpZW50cyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783510903),
 ('HPE7g0S3AIQXx5bpT1b6SlNIYOURBaSLyJFqQDyg', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiIzbDF4S2lRWUFLZmUwMnJ0aHl1VHhpQ2k5TTZjV29ia3g2Sm1VbmFOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9rbGllbiIsInJvdXRlIjoiY2xpZW50cyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783511324),
 ('IByP0FQd4kPhL6LvJlxnjRU5pSgckkrSYatmHbLZ', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiIzcm9lSUNEdHllWm9FclJCbDlmSk5UVzFzQWk1OTVPN3Z3RXFqM3RMIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783511779),
 ('IJ5NEARmytJE0IrcIl4WQFbUeMTlMLhOP64LhfRS', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJMRmpsZ0t2bnBFOGxUeHZ4MHNrSXNBQng3VGlQMTNMM0lPUEx4TDJGIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9rbGllbiIsInJvdXRlIjoiY2xpZW50cyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783511403),
-('inUkbuknT6wVZlngzvFC53DvWCF3fHoZQfGrwPnZ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJwdDdWU0VrUzI0Yjk4dFNIbU1BNmxPY1lHV094TDhia3QyR0Rxa2lzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kb2t1bWVuLXNwcGwtZGktb3NzIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783507938),
+('inUkbuknT6wVZlngzvFC53DvWCF3fHoZQfGrwPnZ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJwdDdWU0VrUzI0Yjk4dFNIbU1BNmxPY1lHV094TDhia3QyR0Rxa2lzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783512984),
 ('IQ6FK5uZlUnddGiciBDXMAavMVakcbFWppkViZmz', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJRRWtzZDRKeGpvNzRpNWN0NTYxS2dzN1N5RzFiZVBReDJWbGhlT21tIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783511406),
 ('J16Cwhfcwv1VvP4NKsmJwlLF4mIlYrYNWVdDM3Fm', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJIdkk0UTN4WnczMHZJR3V5V1BuSTN4ZWxlUzEyR1dEWXhUVW1rQ1BBIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9rbGllbiIsInJvdXRlIjoiY2xpZW50cyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783510746),
 ('k6M6bjszRPsGCQYg42Nmf7GSGsgpPhJcdPhgGJg8', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJrWXBzSWk4dnJzVkQ2RGJkZ1BxNThyWkFmdGVmckxGTnFMOFNvaVNaIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783511696),
@@ -874,7 +876,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8311 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8314 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9271,6 +9273,9 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8307, NULL, '98.91.77.46', 'GET', '/klien', 'https://sastrabhinnekakarya.co.id/klien', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 19:09:17', '2026-07-08 19:09:17'),
 (8308, NULL, '98.91.77.46', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 19:09:20', '2026-07-08 19:09:20'),
 (8309, NULL, '3.224.234.70', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 19:11:18', '2026-07-08 19:11:18'),
-(8310, NULL, '3.224.234.70', 'GET', '/klien', 'https://sastrabhinnekakarya.co.id/klien', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 19:11:18', '2026-07-08 19:11:18');
+(8310, NULL, '3.224.234.70', 'GET', '/klien', 'https://sastrabhinnekakarya.co.id/klien', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 19:11:18', '2026-07-08 19:11:18'),
+(8311, NULL, '34.77.219.71', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 19:14:32', '2026-07-08 19:14:32'),
+(8312, NULL, '98.91.77.46', 'GET', '/tentang', 'https://sastrabhinnekakarya.co.id/tentang', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 19:16:24', '2026-07-08 19:16:24'),
+(8313, NULL, '34.79.183.100', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 19:21:20', '2026-07-08 19:21:20');
 
 SET FOREIGN_KEY_CHECKS = 1;
