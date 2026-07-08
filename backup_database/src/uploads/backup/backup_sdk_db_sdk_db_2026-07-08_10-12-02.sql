@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 10:00:02
+-- Dibuat   : 2026-07-08 10:12:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -836,6 +836,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('VmdgrsxAbYzqP6jhwsTaJQKATs9WIc9grXzOBN5z', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJKWWJRVTVGbjBENTFlZ0lKTjUzeGdZY0VDVEx3MXQ2QWlvRUVWUXVGIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9rZXJhbmdrYS1hY3Vhbi1hbmRhbC1yZW5jYW5hLWtlZ2lhdGFuLWluZHVzdHJpLXBlbmdvbGFoYW4ta2ltaWEtZm9rdXMta2FqaWFuLXJpc2lrby1saW5na3VuZ2FuLWRhbi1wZW5nZWxvbGFhbi1saW1iYWgtYjMtZGktem9uYS1pbmR1c3RyaS1iYW50ZW4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470434),
 ('vzDqsqBuFAVQ4aRWE0WjuOxTNOrWC6oDJ8pUNioc', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJSbWR6dHFmbGI3Q0FBNE5kOE5zaFJLMmlUMFREcERObDlGZThtaEdKIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3BhZ2U9MSIsInJvdXRlIjoiYmxvZyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470432),
 ('W3KwC6M9eG1OjneHhmdy8lfqlz4ekmzboKOiFCor', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJ0NnhZZWE2T2s0bDBCd2hSZ1NtR2Mzckh6cFRWemRjalB5R1JPbjZDIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3RhZz1wZXJpemluYW4iLCJyb3V0ZSI6ImJsb2cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470430),
+('WdMHq7JKUvKIRY2WJoU9hkNSPXFTDLgh1jquQ3ph', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiI1dUI3eDg3UHE1WTJ6NGNNdEhPUUhTS01ZSWRrbGN0bTBjTDd4aEgzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783480183),
 ('wdVFAVykGnDxotKRSa3KUEqHoEDLwBq0WRC4wgB6', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiI1SVYycWtaVUxGNGdjSlhkam41YWhNd3FYdG5NN2llank5M1JwNUc1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3BhZ2U9NCIsInJvdXRlIjoiYmxvZyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470429),
 ('wEK58KR0mlfM9ySB6fRz9dFMN84z2kLuG8MQyEOV', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJjVTU4ODBqTWVYcllFSXBqSXJ1UzMyZk10RTE1YkM4Y3N1eEdlZW42IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pbnRlZ3Jhc2ktcGVuZ2Vsb2xhYW4tc2FtcGFoLW11dHUtdWRhcmEtZGFuLWFpci1saW1iYWgtZGFsYW0tcGVueXVzdW5hbi1kb2t1bWVuLWFtZGFsLWthd2FzYW4taW5kdXN0cmkiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470434),
 ('WJ9Vx8zF2wkLKfGMhyzALRZmRo4XkhMMFqQfpEQZ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJGeDlDMm1zTjV6UWhOdU12dXl6ZDc3ZXBoWnVnYndOU214dEVhalNnIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3RhZz1JbmZvcm1hc2kiLCJyb3V0ZSI6ImJsb2cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470430),
@@ -930,7 +931,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8101 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8103 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9115,6 +9116,8 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8097, NULL, '2400:9800:35c:15eb:8c8c:2be1:67bc:e923', 'GET', '/portofolio', 'https://sastrabhinnekakarya.co.id/portofolio', 200, 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1', 'https://sastrabhinnekakarya.co.id/', '2026-07-08 09:17:40', '2026-07-08 09:17:40'),
 (8098, NULL, '52.167.144.180', 'GET', '/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 09:26:25', '2026-07-08 09:26:25'),
 (8099, NULL, '52.167.144.237', 'GET', '/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 'https://sastrabhinnekakarya.co.id/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 09:37:50', '2026-07-08 09:37:50'),
-(8100, NULL, '34.77.217.12', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 09:40:19', '2026-07-08 09:40:19');
+(8100, NULL, '34.77.217.12', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 09:40:19', '2026-07-08 09:40:19'),
+(8101, NULL, '114.10.41.102', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 10:09:11', '2026-07-08 10:09:11'),
+(8102, NULL, '114.10.41.102', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'https://sastrabhinnekakarya.co.id/', '2026-07-08 10:09:43', '2026-07-08 10:09:43');
 
 SET FOREIGN_KEY_CHECKS = 1;
