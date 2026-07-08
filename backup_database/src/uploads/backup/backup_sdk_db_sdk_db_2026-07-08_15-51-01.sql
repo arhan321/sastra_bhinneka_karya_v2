@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 15:39:01
+-- Dibuat   : 2026-07-08 15:51:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -759,6 +759,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('foNkUZA83KVygt2VxPyLxdOFgjKnqIgL2zofjVtT', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJQRmVkZG9WZEJ3aUh3RUZKY2RCMVdIZEJpZExlTGhEb2xpQzFmYjFaIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783470435),
 ('FQ3VFjNYgELudC7VZDEJA7GsMmMwMNJLhlBU2zOb', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJBbWUzMmljWEt6cmt5cDVuVGpKZGdJR1c3VHgzRmpIRWoxVHRqOTc2IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9vcHRpbWFsaXNhc2ktZG9rdW1lbi1wZW5nZWxvbGFhbi1saW1iYWgtYjMtdW50dWstbWVuY2VnYWgtcGVuY2VtYXJhbi10YW5haC1kYW4tYWlyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470433),
 ('frrQTFBGyWQlmWpQANlGVAkR12Sl2FPIxhkRyMsg', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJjMVF2dXZNZWMzdVpJN1AxN05VdWVsRXhDcTVlZExsWFJiRHJaalUzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470427),
+('G9VcO4D33nQNQ8B00jhXDXihy2aLTXXpGdiVkrec', NULL, '10.200.7.1', 'Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity', 'eyJfdG9rZW4iOiJ1T0hEWDk0WWs3TTBjS2xQWkhZeDhaWVBqQTd6bkM1d1RmTHltN1YzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783500016),
 ('giZYN6krUV2bzyNwm2dPr6Y7mjE6WKlVgc2VQWM7', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJVM25WZHdvdGxEMk5KZXZFSHQ4Um5aOGRqU1UxODRmN2pXeTRDejB1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC8xMSIsInJvdXRlIjoicG9ydGZvbGlvLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470431),
 ('Go2gpUhOJCW9KY3zEm5iVVrDAXmk0D3hTwZEwx3c', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJxRWpSMzNyMXBDNG81YWVkaDNLUHJIQUlHWmNCdm5ONlNlVms5ZzhLIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC8xMC1qZW5pcy1lbWlzaS1iZXJiYWhheWEtYmFnaS1saW5na3VuZ2FuLWRhbi1rZXNlaGF0YW4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470433),
 ('GUqRa7oCApFOszH62zVNH2kJMIqLmM7InoLxaIjD', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJVcDQ2Nm5GTUY4RUpSTzRpakgyUnZyYkRJRVRYMXVCNGRLNG0xRXJGIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC85Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470431),
@@ -946,7 +947,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8119 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8120 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9149,6 +9150,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8115, NULL, '52.167.144.222', 'GET', '/blog/dokumen-delhdplh', 'https://sastrabhinnekakarya.co.id/blog/dokumen-delhdplh', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 13:58:15', '2026-07-08 13:58:15'),
 (8116, NULL, '52.167.144.143', 'GET', '/blog/Strategi%20Penurunan%20Emisi%20Karbon%20melalui%20Penerapan%20Energi%20Baru%20Terbarukan%20%28EBT%29%20pada%20Sektor%20Industri', 'https://sastrabhinnekakarya.co.id/blog/Strategi%20Penurunan%20Emisi%20Karbon%20melalui%20Penerapan%20Energi%20Baru%20Terbarukan%20%28EBT%29%20pada%20Sektor%20Industri', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 14:00:14', '2026-07-08 14:00:14'),
 (8117, NULL, '40.77.167.2', 'GET', '/blog/ka-andal-pembangunan-kawasan-industri-manufaktur-terpadu-lingkup-evaluasi-dampak-terhadap-kualitas-air-permukaan-dan-udara-ambien-di-kabupaten-tangerang', 'https://sastrabhinnekakarya.co.id/blog/ka-andal-pembangunan-kawasan-industri-manufaktur-terpadu-lingkup-evaluasi-dampak-terhadap-kualitas-air-permukaan-dan-udara-ambien-di-kabupaten-tangerang', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 15:34:03', '2026-07-08 15:34:03'),
-(8118, NULL, '157.85.210.113', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 15:34:14', '2026-07-08 15:34:14');
+(8118, NULL, '157.85.210.113', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 15:34:14', '2026-07-08 15:34:14'),
+(8119, NULL, '198.235.24.219', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity', NULL, '2026-07-08 15:40:16', '2026-07-08 15:40:16');
 
 SET FOREIGN_KEY_CHECKS = 1;
