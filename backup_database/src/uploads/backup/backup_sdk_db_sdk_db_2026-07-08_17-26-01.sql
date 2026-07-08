@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 17:14:02
+-- Dibuat   : 2026-07-08 17:26:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -706,7 +706,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('4ThnLU0Ncu1oBw9nPWHUPkq7BOHLIUSyEBsDrQoE', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ0bVlyaGJOd1dIR2JYSlZZSTdPU1k2bWRiU3FCVzZzSWRzSUR3bnpBIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kb2t1bWVuLWRlbGhkcGxoIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783503903),
 ('6J1xzdGg1hzI8F30yihzzjIGyfjRQfyJ25fyAllC', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJGSVNxS1Voa0FSQVhueEF0VlQ5c2RUemdDeHRLdkxiMVZsaXZUQ0hJIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kb2t1bWVuLWRlbGhkcGxoIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783503664),
 ('7rdSmEL2ElZFZYb3W5NlivpUT0Om11B8SArzdwh5', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiI2ZHRDWmpNeXBHTVMzbzJlOG02YmUxcmhJZEQwUDlkMGh0UTI2SlZkIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783503562),
-('7swkuhLvYAwbJMHnjPXNOvHA5IysBgpmZvIJEZBj', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJTRVNYZ3ZwS0c5cVFRMVJZYXRkY0JOYzR4cWlDaTg2bFcyZEI0Zmd5IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783499654),
+('7swkuhLvYAwbJMHnjPXNOvHA5IysBgpmZvIJEZBj', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJTRVNYZ3ZwS0c5cVFRMVJZYXRkY0JOYzR4cWlDaTg2bFcyZEI0Zmd5IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783506325),
 ('7zRC0TmzLBsRQgwrqTlnGjijnzB2bDxQE4YO0xvi', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJvMU5hTHpmNzdFcnlBbUhyNTVEVXg5a2g3OHp5NWdOeEF2RWtMTjJjIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kb2t1bWVuLWRlbGhkcGxoIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783504176),
 ('9DmXZVCcFarf88buMcbPPH3M3txyBjVXAOu2S0Yl', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJvNU0zNUsybzc0MHAxbEc3U1JHOWh3Z3dUSGVFUlQwYjgwNjNtdExEIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kb2t1bWVuLXNwcGwtZGktb3NzIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783503749),
 ('9YagtcQyyiYzxFyjgwW0RreL1Tdo455hSh9Rxuw0', NULL, '10.200.7.1', 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36', 'eyJfdG9rZW4iOiJhZHhSSHQwV1l0UTZ6ekJ4amhlM1lxS0RxbEZnaXVJQ3BmQlJvZ01tIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783501153),
@@ -813,7 +813,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8158 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8164 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9055,6 +9055,12 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8154, NULL, '98.91.77.46', 'GET', '/blog/dokumen-sppl-di-oss', 'https://sastrabhinnekakarya.co.id/blog/dokumen-sppl-di-oss', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 16:49:36', '2026-07-08 16:49:36'),
 (8155, NULL, '98.91.77.46', 'GET', '/blog/dokumen-delhdplh', 'https://sastrabhinnekakarya.co.id/blog/dokumen-delhdplh', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 16:49:37', '2026-07-08 16:49:37'),
 (8156, NULL, '52.167.144.166', 'GET', '/blog/kajian-upaya-pengelolaan-dan-pemantauan-lingkungan-ukl-upl-pada-sektor-industri', 'https://sastrabhinnekakarya.co.id/blog/kajian-upaya-pengelolaan-dan-pemantauan-lingkungan-ukl-upl-pada-sektor-industri', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 16:52:33', '2026-07-08 16:52:33'),
-(8157, NULL, '3.224.234.70', 'GET', '/blog/dokumen-delhdplh', 'https://sastrabhinnekakarya.co.id/blog/dokumen-delhdplh', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 16:57:44', '2026-07-08 16:57:44');
+(8157, NULL, '3.224.234.70', 'GET', '/blog/dokumen-delhdplh', 'https://sastrabhinnekakarya.co.id/blog/dokumen-delhdplh', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-08 16:57:44', '2026-07-08 16:57:44'),
+(8158, NULL, '157.85.210.113', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 17:21:42', '2026-07-08 17:21:42'),
+(8159, NULL, '157.85.210.113', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 17:22:48', '2026-07-08 17:22:48'),
+(8160, NULL, '157.85.210.113', 'GET', '/tentang', 'https://sastrabhinnekakarya.co.id/tentang', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'https://sastrabhinnekakarya.co.id/', '2026-07-08 17:23:07', '2026-07-08 17:23:07'),
+(8161, NULL, '157.85.210.113', 'GET', '/klien', 'https://sastrabhinnekakarya.co.id/klien', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'https://sastrabhinnekakarya.co.id/tentang', '2026-07-08 17:23:19', '2026-07-08 17:23:19'),
+(8162, NULL, '157.85.210.113', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'https://sastrabhinnekakarya.co.id/klien', '2026-07-08 17:23:20', '2026-07-08 17:23:20'),
+(8163, NULL, '157.85.210.113', 'GET', '/portofolio', 'https://sastrabhinnekakarya.co.id/portofolio', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'https://sastrabhinnekakarya.co.id/', '2026-07-08 17:25:25', '2026-07-08 17:25:25');
 
 SET FOREIGN_KEY_CHECKS = 1;
