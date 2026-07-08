@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 01:04:01
+-- Dibuat   : 2026-07-09 01:16:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -722,6 +722,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('ePtm1bTgeqEje9mOJtcM5lvTcaWx9Qb2lbhpGy3E', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJlekxGck9mZmVPMlZQQU1wS05BSXVWMklOVVNUWHUyN2tQR0JPRWdrIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWIiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783532965),
 ('Eqi8bwhmsJJnSciNb0YW5gOIy2TZddTj4DM8P3lV', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiI2MGZHQVhjV2FGQXVJR25QeHVwUU54NjlXVUVoa3RkcWlGamU2TkN0IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kb2t1bWVuLWxpbmdrdW5nYW4tYmVyYmFzaXMtZ2Vvc3Bhc2lhbC1tZWxhbHVpLWFtZGFsbmV0Iiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783525878),
 ('EqujqTd9Bfnb1w1SG1wQGJij2uvvxcUlcUpjvlnu', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiJIMkR6UGhmM3pEaGdOMEZNS3F2b1hianRGUEE0QUd2bTNBcnVpa3dEIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783531462),
+('H2HtTBZN7PEMSuZhb0vpYSVgFgUhHtMjbc4KGt9w', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJwc3lpbFNCYWk3OVpkSHJnN0dXa1BldlQwbVBTTzdQR09tcEpKSDBBIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWIiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783533989),
 ('IoR8dqaA3odHBgisvDt2c7AkN9Qi74CHfEyk600n', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiIwdjVhOWUyZXE1YjNtaUsydkFnc0I1U3YzQllBSFNBMnV6UXdoZFhOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmFjdW4tYjMiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783527690),
 ('J00oPImIgHiaP46KGi4bh8uBPrhnq7LOvlcoAEeo', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJsT0NPM3VWRjhySldHa2ExdGMwTXdWejVYdVdqZ3IzRmxoWTZzeUpFIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWIiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783532731),
 ('lHe1CiwKu7Td8ENr9pRSlrt0b8oie6AIFfhWYzzB', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJlSVVtUFZKUGVPSWdDM0RWdEZpcFQ5Nm5sd2dGVnF6RmVCSzQ4UDdFIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmFjdW4tYjMiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783532245),
@@ -739,6 +740,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('OZFx1LphrbIl2k4vjSUXLXlzTWuGBldBn3ChtWSr', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiJsSkF6Y3A3S1BPRDRxczVpWTBaZDg0czFzYXNKMnFzMUN6MTY3Umw1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9ldmFsdWFzaS1kYW1wYWstcGVuY2VtYXJhbi1saW1iYWgtY2Fpci1wYWJyaWstdGVyaGFkYXAta3VhbGl0YXMtYWlyLXN1bmdhaS1kYW4tYmlvdGEtYWlyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783522391),
 ('PfewYUaF3i8OtwlNP5ruOrGBxTGH4exoOkvn5GAV', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ0Z1V4cWNMNkM4Y2d3RVJHb3Vybm5zempBYWtBWWw0anF4cTdXYVlkIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmFjdW4tYjMiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783532426),
 ('PZ9jSCK0sh5do2okg0v2gWQs3StgW4S3XruFOKjG', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiI1b0NCQTFrOGVDZHpGNFpEYzJwcXgzZG1PVGVBSUtuR3prOXR6MzduIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783530535),
+('Q1xrfCwvY2Blv1cA4oeWcc6LI1fyBJatuSW0TfVD', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJFclFFa3hYY2V2RkNEa0VERUE2VFF3Z2hpTk5MU1JKdHJpM3czZXdKIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWIiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783533989),
 ('s7gR0KNi7F9x1b0L0kvLjXTO93G5irHd78EAMzD5', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJQOFZod08xMUk0azM3WmpvUExZR25RczhmbUJJVEdsNllVdWV2UkpSIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783530953),
 ('SJ5HLdQrJ0ckvUcomYm04mM4p4Ovb3QZijzJznMd', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiI4NUhldmpma1BrMUlUQ3JTYlRLMVBCU2hDTk9KNElIMzUxaFo4cVRTIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWIiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783533402),
 ('svJIL5zDK1dDBTnizWc7fRelElTiqvGecsQsqD23', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJNVWRDbUJBUEQwc1Y4UU5tSENCNnhTSEdqdkVaSWxkVVF1aVl3YURvIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmFjdW4tYjMiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783527461),
@@ -830,7 +832,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8415 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8417 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9333,6 +9335,8 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8411, NULL, '3.224.234.70', 'GET', '/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:01:01', '2026-07-09 01:01:01'),
 (8412, NULL, '98.91.77.46', 'GET', '/blog/apa-aja-jenis-jenis-limb', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limb', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:01:01', '2026-07-09 01:01:01'),
 (8413, NULL, '98.91.77.46', 'GET', '/blog/apa-aja-jenis-jenis-limb', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limb', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:03:18', '2026-07-09 01:03:18'),
-(8414, NULL, '98.91.77.46', 'GET', '/blog/apa-aja-jenis-jenis-limb', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limb', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:03:18', '2026-07-09 01:03:18');
+(8414, NULL, '98.91.77.46', 'GET', '/blog/apa-aja-jenis-jenis-limb', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limb', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:03:18', '2026-07-09 01:03:18'),
+(8415, NULL, '98.91.77.46', 'GET', '/blog/apa-aja-jenis-jenis-limb', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limb', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:06:29', '2026-07-09 01:06:29'),
+(8416, NULL, '23.23.253.54', 'GET', '/blog/apa-aja-jenis-jenis-limb', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limb', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:06:29', '2026-07-09 01:06:29');
 
 SET FOREIGN_KEY_CHECKS = 1;
