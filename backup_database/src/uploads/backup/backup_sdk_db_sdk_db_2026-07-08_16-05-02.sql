@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 15:53:01
+-- Dibuat   : 2026-07-08 16:05:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -730,6 +730,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('9FiK2fU9TqU7gc5QJ2FSKFL0XRUtHpJEbUA0xr8F', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJFVDVad2RYN2FUUkZkVWZjRUl1QlZUQkdpeExZdHJVeHQyZ2N0dzNpIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3RhZz1Lb250cnVrc2kuTGluZ2t1bmdhbiIsInJvdXRlIjoiYmxvZyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470430),
 ('9fOxv8b6IZXnDukVNf7iZJm3bLoV7g7Z4WAIReE0', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJTT2pUd2VRb25Db1dPeThXQzFLd3JGS2Y2TXNWbHhlNjZtdHJzc2tSIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783470425),
 ('9kB0wEOjKizbxUk3K37Loxde3VGKlcqjf7r179AE', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJRRkl1dFdBb2t3SEkyYVBsTlVsQ0F1TGdYVlU2ZkVUVW9Rc0s4bWkwIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3RhZz1MaW5na3VuZ2FuIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783470430),
+('9YagtcQyyiYzxFyjgwW0RreL1Tdo455hSh9Rxuw0', NULL, '10.200.7.1', 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36', 'eyJfdG9rZW4iOiJhZHhSSHQwV1l0UTZ6ekJ4amhlM1lxS0RxbEZnaXVJQ3BmQlJvZ01tIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783501153),
 ('AboFI0O1EfBLMzDdD7XQxY1cwrxQhnaQnJKmrTNw', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJaYjJtSmJ3MnRhTFBqQ2w5QUhYdkVxV0t3UnY3UVVCRkJFMTVERnIwIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kb2t1bWVuLXNwcGwtZGktb3NzIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470432),
 ('ABVzC6tI9x4I6DBLJ9EqjIcOGaATO8InFm73MEYI', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJFaHdnUUx4dkRab1FvdjZuV3VMUGFwa1doUUx6YWpCdUdGN2ZjNG9QIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9rYWppYW4taHVrdW0tZGFuLXRla25pcy1wZW55dXN1bmFuLWRva3VtZW4tZGVsaGRwbGgiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470435),
 ('AFy3eBVuP42GaDonYrBIoag2pAdVdCQt0pV5YXUQ', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiJBOWduM2xuaVkzRWpodlh6cmFiZWRza3k0YzhrU1poSm1YblFqV3lsIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmFjdW4tYjMiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783477585),
@@ -947,7 +948,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8120 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8121 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9151,6 +9152,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8116, NULL, '52.167.144.143', 'GET', '/blog/Strategi%20Penurunan%20Emisi%20Karbon%20melalui%20Penerapan%20Energi%20Baru%20Terbarukan%20%28EBT%29%20pada%20Sektor%20Industri', 'https://sastrabhinnekakarya.co.id/blog/Strategi%20Penurunan%20Emisi%20Karbon%20melalui%20Penerapan%20Energi%20Baru%20Terbarukan%20%28EBT%29%20pada%20Sektor%20Industri', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 14:00:14', '2026-07-08 14:00:14'),
 (8117, NULL, '40.77.167.2', 'GET', '/blog/ka-andal-pembangunan-kawasan-industri-manufaktur-terpadu-lingkup-evaluasi-dampak-terhadap-kualitas-air-permukaan-dan-udara-ambien-di-kabupaten-tangerang', 'https://sastrabhinnekakarya.co.id/blog/ka-andal-pembangunan-kawasan-industri-manufaktur-terpadu-lingkup-evaluasi-dampak-terhadap-kualitas-air-permukaan-dan-udara-ambien-di-kabupaten-tangerang', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 15:34:03', '2026-07-08 15:34:03'),
 (8118, NULL, '157.85.210.113', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 15:34:14', '2026-07-08 15:34:14'),
-(8119, NULL, '198.235.24.219', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity', NULL, '2026-07-08 15:40:16', '2026-07-08 15:40:16');
+(8119, NULL, '198.235.24.219', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity', NULL, '2026-07-08 15:40:16', '2026-07-08 15:40:16'),
+(8120, NULL, '114.10.25.244', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36', NULL, '2026-07-08 15:59:13', '2026-07-08 15:59:13');
 
 SET FOREIGN_KEY_CHECKS = 1;
