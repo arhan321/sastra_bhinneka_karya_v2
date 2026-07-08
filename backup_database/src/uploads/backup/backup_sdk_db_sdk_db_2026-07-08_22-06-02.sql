@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 21:54:01
+-- Dibuat   : 2026-07-08 22:06:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -782,6 +782,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('SSLkNaajbQlzr9MpmkdM4bY4Igd0TCyijRB0oMbu', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiJkbDdQRWZIbnBPeWJ0TFFFajJURWxYQVNiZlZCc0RyamdFckh1NFBaIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783511239),
 ('swekYQ4pAT3FmPyuJdesi2iWhOg8n2dWxzz5Pvpf', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJmd3p6RGRJUGVtbWp1VklXWG83WWxoWVJxQnBVanh4Mm9QdUJRbUhIIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783512375),
 ('SYBSaziYI6Ljpr8CzSnuIVLghY0SuyDrlcPhKXH0', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJMdjVGQnRCbzdkblVpTlhPcTVDemdGOGZEY2RuYmtXTG9GbTRrS1U1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783510883),
+('TCGkcllTam41cIXFqQ3U69CPvviCjzYf5cvRlbX4', NULL, '10.200.7.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJIQXpYY1VRcW1zSkJEWVF1cUZscmJpa2pTNTgxRjNuUmNJRE10N3puIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783522558),
 ('TeNLSjN1VivM4yVDF1VUHeVCIKWH4v0m1STBbcfJ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiI4MWs4QUZSZXVrSUxydGt3ZElMa3U3ZGZuSlNlMElEeVBpTGlRRTJuIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9rbGllbiIsInJvdXRlIjoiY2xpZW50cyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783515675),
 ('TJS9YkprTwLYWrzwLA30T1cngeiFmZ3PnOJLj7i3', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJLMU42aTZ1WnVpcUljRzJzOUxiRHpNd1A0M0NQV0NVeHliMDRBdHhOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783510566),
 ('tZQZQOQJZ7etRUD5Q5LdVD6Dr0yx7BgoA516Vm8c', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJaenZCVWhWeXVCUFpvaTdHRVN2a25LS1NOR1BxcHl2bDNWMlFFa3FjIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783511466),
@@ -876,7 +877,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8343 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8344 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9305,6 +9306,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8339, NULL, '34.62.197.208', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 20:13:19', '2026-07-08 20:13:19'),
 (8340, NULL, '34.79.87.63', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 20:25:20', '2026-07-08 20:25:20'),
 (8341, NULL, '40.77.167.155', 'GET', '/blog/evaluasi-dampak-pencemaran-limbah-cair-pabrik-terhadap-kualitas-air-sungai-dan-biota-air', 'https://sastrabhinnekakarya.co.id/blog/evaluasi-dampak-pencemaran-limbah-cair-pabrik-terhadap-kualitas-air-sungai-dan-biota-air', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 21:53:11', '2026-07-08 21:53:11'),
-(8342, NULL, '52.167.144.183', 'GET', '/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 21:53:43', '2026-07-08 21:53:43');
+(8342, NULL, '52.167.144.183', 'GET', '/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 21:53:43', '2026-07-08 21:53:43'),
+(8343, NULL, '3.87.183.204', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', NULL, '2026-07-08 21:55:58', '2026-07-08 21:55:58');
 
 SET FOREIGN_KEY_CHECKS = 1;
