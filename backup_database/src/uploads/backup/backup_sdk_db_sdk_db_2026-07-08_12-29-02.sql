@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 12:17:01
+-- Dibuat   : 2026-07-08 12:29:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -854,6 +854,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('XGJsJRJ9qETjd0ydoGX8qM9HsoZfsU2rNc0WRSbG', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJJN3RCeHhjME1LMTVTb2FvVmFCVHdMVnpQaXVzUW50aVhUbHZJZG9zIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9rbGllbiIsInJvdXRlIjoiY2xpZW50cyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470427),
 ('xGUsXQ0XcwYo2mvLuJD3ka4NHV7WoQXxVHslUUSK', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJQN3lhb3FkT1EwZVRTQ205eFNVSEMyQlczQWNXWDV3RkVqTTdENGlQIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9zdHJhdGVnaS1wZW51cnVuYW4tZW1pc2kta2FyYm9uLW1lbGFsdWktcGVuZXJhcGFuLWVuZXJnaS1iYXJ1LXRlcmJhcnVrYW4tZWJ0LXBhZGEtc2VrdG9yLWluZHVzdHJpIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470435),
 ('XlN13Wh7Ze4Sf1RRQyilllQ8KnkewXSLJRoUIywL', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiI1NWlhQmlYMGI5YVdxS2dLaHZWaU1WT01mOWFiVnJSbzNKbWppcW11IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pbm92YXNpLXBlbmdvbGFoYW4tbGltYmFoLW1lbmd1YmFoLXNpc2EtcHJvZHVrc2ktbWVuamFkaS1zb2x1c2kiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470429),
+('XMPN6QD8fIVFkYLJouK6b6shVWO6FD0s7lGc5k4b', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJtN051QVRhUVI0V2lCUHNMTDFpS0owZmU5cVliQWxoME95N2NQNG1ZIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783488470),
 ('XO4gkLPrAYOaVqkGAhqPcqU0gbA5VKPKGir45wFs', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJBQ3lUY254ZGlwT2FCY2NSYWYzZ3NHMFc5RU1QN01HZkJ4QkFZZVlsIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC81JTIwSXN1JTIwTGluZ2t1bmdhbiUyMFV0YW1hJTIweWFuZyUyMERpaGFkYXBpJTIwSW5kdXN0cmklMjBTYWF0JTIwSW5pJTIwZGFuJTIwU29sdXNpJTIwRG9rdW1lbnRhc2lueWEiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470429),
 ('y4aWg32ykFS01iyYapr9tphEEYBndKHxjQNFMSqk', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiI2QWVJTUNnOFJDOFRBaUtyeEh2SnZRMU5vQVdYc3laZVRJeElMNmVRIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470426),
 ('yml3vu7Sd2ChsDF3Hak0jeLasHX3LSjIufzR2svw', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJVaUgybUNFZzFlSTB6ZERrMWNIUWlNaW5maWRtcVpwRUIxbzVGY2ZiIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3RhZz1rZXNlbGFtYXRhbiUyMGtlcmphIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783470432),
@@ -938,7 +939,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8111 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8112 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9133,6 +9134,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8107, 1, '2407:0:3002:1849:95db:68f3:a03a:908f', 'GET', '/blog', 'https://sastrabhinnekakarya.co.id/blog', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', 'https://sastrabhinnekakarya.co.id/', '2026-07-08 10:17:31', '2026-07-08 10:17:31'),
 (8108, NULL, '34.79.183.100', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-08 10:20:19', '2026-07-08 10:20:19'),
 (8109, NULL, '40.77.167.37', 'GET', '/blog/analisis-dampak-dan-manajemen-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-sektor-manufaktur', 'https://sastrabhinnekakarya.co.id/blog/analisis-dampak-dan-manajemen-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-sektor-manufaktur', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 11:33:08', '2026-07-08 11:33:08'),
-(8110, NULL, '52.167.144.181', 'GET', '/blog/analisis-sistem-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-kawasan-industri', 'https://sastrabhinnekakarya.co.id/blog/analisis-sistem-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-kawasan-industri', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 12:10:13', '2026-07-08 12:10:13');
+(8110, NULL, '52.167.144.181', 'GET', '/blog/analisis-sistem-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-kawasan-industri', 'https://sastrabhinnekakarya.co.id/blog/analisis-sistem-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-kawasan-industri', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 12:10:13', '2026-07-08 12:10:13'),
+(8111, NULL, '2407:0:3002:1849:34fd:7fdc:986a:d53c', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 12:27:50', '2026-07-08 12:27:50');
 
 SET FOREIGN_KEY_CHECKS = 1;
