@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 13:34:01
+-- Dibuat   : 2026-07-08 13:46:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -787,6 +787,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('mhOyYLnQ0R7ZORv4nBtjfASsk5JQRxq5bEhMQSGB', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; MJ12bot/v2.0.5; http://mj12bot.com/)', 'eyJfdG9rZW4iOiJhelNsd2lWQ3hJN05FVE4xVmpzMkkwb21jbWcyZVJaTHkzdkVxVkpOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783469887),
 ('MiD7ELFQnGZnKlvN04Bzkvt9QqRA8doTSkT21e0f', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJMT1hqQlhFNVVPeUtJcGtSWFgyc1BMMjBIUzBzbXBsWXk0N1o4eUdXIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470426),
 ('MlY0cqoVIyDPiMRh48bUOjI1Cm2aVd5p2g2dNgTR', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJnTjZwa3hKOWpKNmg0c1Q1dXpoclIxTXA0RHpRblp6UGg5NlRySjlOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9tZW5nZW5hbC1hbWRhbG5ldC1zaXN0ZW0tZGlnaXRhbC10ZXJiYXJ1LXVudHVrLW1lbXBlcmNlcGF0LWl6aW4tbGluZ2t1bmdhbiIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783470429),
+('moDK5JZsGXj7askN0xQDOjKPuksW8bcqIbGHHfqb', NULL, '10.200.7.1', 'Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity', 'eyJfdG9rZW4iOiI5a1lPR3cwZnRueDAwTzlhcXlOSTdZVHpwWnZhOURlMm15bWpPNElVIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783493116),
 ('MrBc1UEeWnK1laHDX8pcAOoAvFf71q7d3aEq4eqW', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJiZ1M5Vko0RnZWaU00WjYzRVQxWk9vbUQ2OUgwVnpyNkp3OVZKcldLIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC8xMiIsInJvdXRlIjoicG9ydGZvbGlvLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470431),
 ('mv1iLgmF7DIDSbmjZ0lzhrnAU2IW3GScU06RjODy', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJDSHJNdkVFeEdzN2s1N1g1NHNHaktvVjdDWTNGcnRVUTlBYXNSR0htIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hbmFsaXNpcy1wZXJzZXR1anVhbi1saW5na3VuZ2FuLXNla3Rvci1wZXJ1bWFoYW4tdGVya2FpdC1kb2t1bWVuLXVrbC11cGwtZGFuLWRhbXBhay1saW5na3VuZ2FuIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470433),
 ('mV63xT8WOFVtYaHRbACwCxfNoi2Duqib5TlVPg4p', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJWemNjaUFIT2xmem5RUkJDNlU5VWw5bWtnZzEzODRKVUx5cUFQTjF4IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kYW1wYWstcGVtYnVhbmdhbi1saW1iYWgtaW5kdXN0cmktdGVyaGFkYXAtdGFuYWgiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470435),
@@ -941,7 +942,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8114 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8115 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9139,6 +9140,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8110, NULL, '52.167.144.181', 'GET', '/blog/analisis-sistem-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-kawasan-industri', 'https://sastrabhinnekakarya.co.id/blog/analisis-sistem-pengelolaan-limbah-bahan-berbahaya-dan-beracun-b3-di-kawasan-industri', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 12:10:13', '2026-07-08 12:10:13'),
 (8111, NULL, '2407:0:3002:1849:34fd:7fdc:986a:d53c', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36', NULL, '2026-07-08 12:27:50', '2026-07-08 12:27:50'),
 (8112, NULL, '52.167.144.212', 'GET', '/blog/konsultasi-publik-amdal', 'https://sastrabhinnekakarya.co.id/blog/konsultasi-publik-amdal', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 13:24:03', '2026-07-08 13:24:03'),
-(8113, NULL, '40.77.167.41', 'GET', '/blog/dokumen-sppl-di-oss', 'https://sastrabhinnekakarya.co.id/blog/dokumen-sppl-di-oss', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 13:32:48', '2026-07-08 13:32:48');
+(8113, NULL, '40.77.167.41', 'GET', '/blog/dokumen-sppl-di-oss', 'https://sastrabhinnekakarya.co.id/blog/dokumen-sppl-di-oss', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-08 13:32:48', '2026-07-08 13:32:48'),
+(8114, NULL, '147.185.132.52', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity', NULL, '2026-07-08 13:45:16', '2026-07-08 13:45:16');
 
 SET FOREIGN_KEY_CHECKS = 1;
