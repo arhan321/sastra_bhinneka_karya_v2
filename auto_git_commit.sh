@@ -4,6 +4,7 @@ set -Eeuo pipefail
 
 # ==================================================
 # AUTO GIT BACKUP - SASTRA BHINNEKA KARYA V2
+# FIXED: Push target branch MASTER
 # Root/Super User Mode + New Repository + No Raw DB
 # ==================================================
 #
@@ -11,7 +12,7 @@ set -Eeuo pipefail
 # - Jalan sebagai root/super user.
 # - Push project /home/backend/sastra_bhineka ke repository baru:
 #   git@github.com:arhan321/sastra_bhinneka_karya_v2.git
-# - Branch target: main
+# - Branch target: master
 # - db/data TIDAK ikut push.
 # - File/folder lain tetap dipush, kecuali file runtime log/lock.
 # - Backup SQL tetap ikut dipush walaupun kena .gitignore.
@@ -36,7 +37,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 export HOME=/root
 
 PROJECT_DIR="/home/backend/sastra_bhineka"
-BRANCH="main"
+BRANCH="master"
 REMOTE_URL="git@github.com:arhan321/sastra_bhinneka_karya_v2.git"
 
 # Global SSH key untuk GitHub
