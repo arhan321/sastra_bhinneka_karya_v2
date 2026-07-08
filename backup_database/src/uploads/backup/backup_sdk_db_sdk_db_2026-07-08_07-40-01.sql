@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-08 07:28:02
+-- Dibuat   : 2026-07-08 07:40:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -747,6 +747,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('EbscnuE3j9XROc7LqyHV1Goeka1hB6PTH5PigVG2', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; MJ12bot/v2.0.5; http://mj12bot.com/)', 'eyJfdG9rZW4iOiJqYjFpOVFMMWtCV1FnRmZZYTkxRjZLUDhTelZLSzgxZUpJWk9PcDRiIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783469886),
 ('eBupuVgkf1RJUSoVa72M9lY6J3VFYvBP7ZFZBPQB', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJTcUlaNU5pcVpIZms0azhpZE43end2ejJkQ2Z2M3lFSW9HT01WRWxxIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmFjdW4tYjMiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470435),
 ('eLPGg2v9dljKCP6oipEbEsn8b9Hj0tWsvTDu0fKY', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJhSERYU0g0b3BSRE9oMEgydW5iMk5kcUdBZ0s3bWd2SnZUY2E1eWpuIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9rYWppYW4tdXBheWEtcGVuZ2Vsb2xhYW4tZGFuLXBlbWFudGF1YW4tbGluZ2t1bmdhbi11a2wtdXBsLXBhZGEtc2VrdG9yLWluZHVzdHJpIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783470434),
+('F5G6GIXkqZ79BuXZvgNUp6AOMVrugwDJcUTRaCBL', NULL, '10.200.7.1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiI1a1NZZ2dmSlplU2d2a0hSbEdpV283WGV2WXI1cHRyQTRrcDBsem53IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783470594),
 ('fgMeALOGY97WvvzU3dLb1ntTIrtOLWShC6HONOIg', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJDZkliZzl0ZHByZVd2dWdPTEFaVmtlMHhNNzBQWXZtaU5VU01QdktnIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nP3RhZz1pbmR1c3RyaSIsInJvdXRlIjoiYmxvZyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783470430),
 ('fKabF1gSdZ2mqTAj2GfnMyE2WkMxBVFGeV3oCk8B', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', 'eyJfdG9rZW4iOiJJU3llbDMzaDI4bU9hMURGSTVONFkwRkFMSTNSbm9KOGFJTXdHZThKIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kYW1wYWstcG9sdXNpLXVkYXJhLXBlcmtvdGFhbi10ZXJoYWRhcC1nYW5nZ3Vhbi1wZXJuYXBhc2FuLWRhbi11cGF5YS1ydWFuZy10ZXJidWthLWhpamF1LXJ0aCIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783470434),
 ('FMBPzOG6yx0Y9f0rzzKZ3J7zIP8bPHBdQlNX52iu', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiJ6U3lJRlA1dG9vWUN3UU8xSk9YcThJY1oxVEI3TDdQMGFTSnZKdllsIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783464852),
@@ -928,7 +929,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8093 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8094 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9105,6 +9106,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8089, NULL, '185.93.89.147', 'GET', '/blog/Dokumen%20Persetujuan%20Teknis%20Air%20Limbah', 'https://sastrabhinnekakarya.co.id/blog/Dokumen%20Persetujuan%20Teknis%20Air%20Limbah', 200, 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', NULL, '2026-07-08 07:27:15', '2026-07-08 07:27:15'),
 (8090, NULL, '185.93.89.147', 'GET', '/blog/jenis-jenis-dokumen-lingkungan', 'https://sastrabhinnekakarya.co.id/blog/jenis-jenis-dokumen-lingkungan', 200, 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', NULL, '2026-07-08 07:27:16', '2026-07-08 07:27:16'),
 (8091, NULL, '185.93.89.147', 'GET', '/blog/apa-itu-invetarisasi-emisi-ie-gas-rumah-kaca-grk-dan-apa-korealisainya-dengan-busa-carbon', 'https://sastrabhinnekakarya.co.id/blog/apa-itu-invetarisasi-emisi-ie-gas-rumah-kaca-grk-dan-apa-korealisainya-dengan-busa-carbon', 200, 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', NULL, '2026-07-08 07:27:16', '2026-07-08 07:27:16'),
-(8092, NULL, '185.93.89.147', 'GET', '/blog/taukah-kamu-apa-itu-dokumen-lingkungan', 'https://sastrabhinnekakarya.co.id/blog/taukah-kamu-apa-itu-dokumen-lingkungan', 200, 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', NULL, '2026-07-08 07:27:16', '2026-07-08 07:27:16');
+(8092, NULL, '185.93.89.147', 'GET', '/blog/taukah-kamu-apa-itu-dokumen-lingkungan', 'https://sastrabhinnekakarya.co.id/blog/taukah-kamu-apa-itu-dokumen-lingkungan', 200, 'Mozilla/5.0 (compatible; jscrawler/0.1; +https://github.com/)', NULL, '2026-07-08 07:27:16', '2026-07-08 07:27:16'),
+(8093, NULL, '184.32.32.247', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', NULL, '2026-07-08 07:29:54', '2026-07-08 07:29:54');
 
 SET FOREIGN_KEY_CHECKS = 1;
