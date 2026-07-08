@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 01:46:01
+-- Dibuat   : 2026-07-09 01:58:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -728,6 +728,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('GYY0KoefzmvuzkM5fGppXQMo9mfAnpwibio8Cnn2', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJXOW9SWDVSV3VkcDRlazMySXhzNVlEN1B1Y1ExTmxSTFNETFo3Vkw0IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783535359),
 ('H2HtTBZN7PEMSuZhb0vpYSVgFgUhHtMjbc4KGt9w', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJwc3lpbFNCYWk3OVpkSHJnN0dXa1BldlQwbVBTTzdQR09tcEpKSDBBIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783535424),
 ('hoiyBRgl9GVy2Up0eo8RRddWjHZwmscmrclRi5Vg', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJDQmJqazMwMjcwYngxcmF3cHpBQ2RqMFRhYUpRT2czRE96TVNSTFhyIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783535424),
+('iexT5Mxjn2MMtpncH5wSvRZIGzfFuLeIKfViHew9', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJjb2NuOEpGWlI5dWR1TmkwbjMwTzZZNVZaaGR5R2NrSk41ZlhzTnZsIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783536708),
 ('iHiNL9ABdGc0PejEeULGfQgX37zF35QYEQ7mfgqm', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJJVWV4T1dpU2xFNDUwQW9NME5vNWZHVDl3Rzh1R3VwM0pBbzRHaTBWIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783535918),
 ('IoR8dqaA3odHBgisvDt2c7AkN9Qi74CHfEyk600n', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiIwdjVhOWUyZXE1YjNtaUsydkFnc0I1U3YzQllBSFNBMnV6UXdoZFhOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmFjdW4tYjMiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783527690),
 ('J00oPImIgHiaP46KGi4bh8uBPrhnq7LOvlcoAEeo', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJsT0NPM3VWRjhySldHa2ExdGMwTXdWejVYdVdqZ3IzRmxoWTZzeUpFIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC90YW50YW5nYW4tdHJhbnNwYXJhbnNpLWRhbi1wZW5hcGlzYW4tbWFuZGlyaS1kbyIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783536093),
@@ -846,7 +847,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8445 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8446 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9379,6 +9380,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8441, NULL, '23.23.253.54', 'GET', '/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 'https://sastrabhinnekakarya.co.id/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:42:36', '2026-07-09 01:42:36'),
 (8442, NULL, '3.224.234.70', 'GET', '/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 'https://sastrabhinnekakarya.co.id/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:42:37', '2026-07-09 01:42:37'),
 (8443, NULL, '23.23.253.54', 'GET', '/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 'https://sastrabhinnekakarya.co.id/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:44:00', '2026-07-09 01:44:00'),
-(8444, NULL, '34.52.186.237', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 01:44:19', '2026-07-09 01:44:19');
+(8444, NULL, '34.52.186.237', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 01:44:19', '2026-07-09 01:44:19'),
+(8445, NULL, '23.23.253.54', 'GET', '/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 'https://sastrabhinnekakarya.co.id/blog/tantangan-transparansi-dan-penapisan-mandiri-do', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 01:51:48', '2026-07-09 01:51:48');
 
 SET FOREIGN_KEY_CHECKS = 1;
