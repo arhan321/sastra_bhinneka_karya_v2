@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 08:23:02
+-- Dibuat   : 2026-07-09 08:35:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -707,6 +707,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('4TEQum5SptTo0jJICxi2auVZQM1GB7f2Yfmxw5gC', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJUSUV5OTlGeENrVFVtRnZWckdUbXhOOTRiWkFWU0E5ZVJER1A2SnV5IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783549762),
 ('5jfUzCIOART6puKq1JiX1KbFN2h8tO6vhhs4oFIt', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJoaHN5VWNFTlFlRWdlN3B2N1ZqUFVXSmdVTXNKT0FtTkdMeU9IRnZqIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783549516),
 ('5yS8czzpb5qkvBsaZr5pDI9Dp7nm4tHkyXRPFJKI', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJRZ0I4YlFjZXFZbEZnNmpaUkRTdUg1VVlvMXRUYndMQ1JDbjhRQTRqIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783549617),
+('6210KHIwIAOXzCyCNyxXUzqLYjBgkMxoc0BRnbdZ', NULL, '10.200.7.1', 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.46 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)', 'eyJfdG9rZW4iOiJVWnI5eDZ6OVExWUtLcndUMzRnQWp5NWtURDhJV1RjMUhqQUJpY21QIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783560888),
 ('6tm1MnzJTBrVUQ50ZpcXP6wz7Pno8RsU2wdXpj2g', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ6Yll1NUJwbUFWNzFWZW8wV3J4QWxmVUxMeUVhMkxscEtTamFBS1NGIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783549461),
 ('7lkAIpcOrdJJ4DzF8ZxoLmEqdAq6XpUX1WHp8sup', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiI2SlZPb1E5MmI0bHNiRnRrMkRNMHJ3dFVoUXdxTDJqUGlYbDVvVFNZIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783548381),
 ('8UhVCfnfjsuXNh15AfQhKq6EcULAW9P7HjF03r8u', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiI5RGZZYXFMWXBGc01vMGR5bFJ5S0Rmd1dESjVjc1dEMHdZRmpsVHRBIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783551664),
@@ -844,7 +845,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8537 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8538 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9469,6 +9470,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8533, NULL, '51.195.244.86', 'GET', '/blog/peran-persetujuan-lingkungan-amdal-dan-ukl-upl-dalam-pembangunan', 'https://sastrabhinnekakarya.co.id/blog/peran-persetujuan-lingkungan-amdal-dan-ukl-upl-dalam-pembangunan', 404, 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)', NULL, '2026-07-09 07:31:57', '2026-07-09 07:31:57'),
 (8534, NULL, '40.77.167.77', 'GET', '/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 'https://sastrabhinnekakarya.co.id/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-09 07:34:18', '2026-07-09 07:34:18'),
 (8535, NULL, '142.147.97.163', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0', NULL, '2026-07-09 07:51:34', '2026-07-09 07:51:34'),
-(8536, NULL, '40.77.167.28', 'GET', '/blog/isna-inovasi-solusi-netral-karbon-menuju-gaya-hidup-minim-emisi-di-era-modern', 'https://sastrabhinnekakarya.co.id/blog/isna-inovasi-solusi-netral-karbon-menuju-gaya-hidup-minim-emisi-di-era-modern', 404, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-09 08:22:17', '2026-07-09 08:22:17');
+(8536, NULL, '40.77.167.28', 'GET', '/blog/isna-inovasi-solusi-netral-karbon-menuju-gaya-hidup-minim-emisi-di-era-modern', 'https://sastrabhinnekakarya.co.id/blog/isna-inovasi-solusi-netral-karbon-menuju-gaya-hidup-minim-emisi-di-era-modern', 404, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-09 08:22:17', '2026-07-09 08:22:17'),
+(8537, NULL, '192.178.6.72', 'GET', '/tentang', 'https://sastrabhinnekakarya.co.id/tentang', 200, 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.46 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)', NULL, '2026-07-09 08:34:48', '2026-07-09 08:34:48');
 
 SET FOREIGN_KEY_CHECKS = 1;
