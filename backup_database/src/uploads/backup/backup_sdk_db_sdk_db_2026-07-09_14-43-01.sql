@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 14:31:02
+-- Dibuat   : 2026-07-09 14:43:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -737,6 +737,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('K7lL9bMl5eGqGZKrRc8jZ9Yf0GRwXQ3FPxYZOLJz', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJIUm82RmpDTmtaTmk5NE1LbnNjZ0VXT0ZvY2locUVIcWhZRDRrbXlyIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783581842),
 ('kofsCviZ1A8wmIThiUegMmMHDQPZYFwOkjSjKcO2', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJma1MyVmJSelZTM3F3Z2JvOE1NcmJTTG9XZjMwS3lJVVU2amVvcHRCIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783581447),
 ('LaSuv1alMjlK2OuipkO6nwB8XEzXl40JXC6TB6Qm', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJMYkVMdHFGQTd6eUs0azljSXBXQkZSTjlkVHRaMkI4ZllkOUJxNnFOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783578394),
+('LhHnkryNnc1GbrYL5ndX7BGYVGlVB2xiKbogtRv8', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiJGY0lVZG5MR3k2YkxHZURsQzRWS3dZb3RLZWYyYnBlcnE1QTVRd0J1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783582519),
 ('mKc1LgpaMb26WvAmVovGtNrTxTz8qvhHRctwU0NQ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJOeUVSYXVWanBBRzFQZUlsMFBIOHBoTTRXRllKbVBWRjFKUE9Ea0VNIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783581798),
 ('nVGLlCTT7FlEOpUHc1XT47gq34gDIhCwij6m0F9O', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJROU5ac2lxZ0pUdmc1d1kzQWxSNUpxa0dvTWtFSTZGeHNnS3RUM2JFIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783581842),
 ('p0olSI4E17TfjnaAfdjNhqWjbaU2r7U0EuQFkW8p', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJpTnh0WndqdEVGSHFEWExDRXByMlhYQkNpU0lUUEkxcjVrbHVLbjZBIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783581514),
@@ -832,7 +833,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8800 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8801 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9722,6 +9723,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8796, NULL, '98.91.77.46', 'GET', '/blog/air-limbah-dan-pemanfaatan-kembali-sampah-reuse', 'https://sastrabhinnekakarya.co.id/blog/air-limbah-dan-pemanfaatan-kembali-sampah-reuse', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 14:28:39', '2026-07-09 14:28:39'),
 (8797, NULL, '3.224.234.70', 'GET', '/blog/air-limbah-dan-pemanfaatan-kembali-sampah-reuse', 'https://sastrabhinnekakarya.co.id/blog/air-limbah-dan-pemanfaatan-kembali-sampah-reuse', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 14:28:40', '2026-07-09 14:28:40'),
 (8798, NULL, '98.91.77.46', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-er', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-er', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 14:29:42', '2026-07-09 14:29:42'),
-(8799, NULL, '3.224.234.70', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-er', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-er', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 14:30:41', '2026-07-09 14:30:41');
+(8799, NULL, '3.224.234.70', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-er', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-er', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 14:30:41', '2026-07-09 14:30:41'),
+(8800, NULL, '34.76.58.207', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 14:35:19', '2026-07-09 14:35:19');
 
 SET FOREIGN_KEY_CHECKS = 1;
