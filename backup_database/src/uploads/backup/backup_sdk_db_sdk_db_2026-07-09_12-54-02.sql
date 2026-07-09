@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 12:42:01
+-- Dibuat   : 2026-07-09 12:54:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -711,7 +711,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('A8HU6Lsf22BRz8tiyqtwWeRIMq9DeKzm00ZH9tRJ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJMZ09tMDJ4cWhTVU5zU3FLMmdwTzJHTU9sZWcxSnpZelpKYWlmaHJUIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pc25hLWlub3Zhc2ktc29sdXNpLW5ldHJhbC1rYXJib24tbWVudSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783569128),
 ('AlEOrHlKbzzlBD04NXTKLXtqBzaTE0bi4q2jR54e', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ1N0RETWRmRDNmbEZCZEpyVVNPZG1oeFJSN3dJMHFuYVBSM0c5ZHNwIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pc25hLWlub3Zhc2ktc29sdXNpLW5ldHJhbC1rYXJib24tbWVudSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783569144),
 ('aSPgrHzT6CwFdypbIqZrFnITukYoqgR2zpDBxYn3', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJtVGRyZkY1YjduZDV4cnRXSEplZTM3U0hOMW9veWJqQ21UZ1pPcFFHIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783574786),
-('b4m810a2ZRGRLnnlvoOotoHvVi64pCwopyIMp690', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJQN3d4S3NvUlVqRVRKcThHaGhKcjF6WHNNM1F5MG1LMDJibVhTU1A1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783572321),
+('b4m810a2ZRGRLnnlvoOotoHvVi64pCwopyIMp690', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJQN3d4S3NvUlVqRVRKcThHaGhKcjF6WHNNM1F5MG1LMDJibVhTU1A1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC80Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783576412),
 ('c9VzGHcb60na8aPxbqatFK5as0x3prwIgdtSqppV', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJudWtDSjRncnRmQjFYVXZwZnZsaUFYTkFHa1o1VDU5MFBWZHNqdzRGIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783572564),
 ('cJQyHumirxIMWXeleekLghE7GgFaMjhv46R0uE8n', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJseG9WNFY1Q2pqMGtRWFhVYmJXYmNGeldPMmExMExHbVZGb0JRMGVqIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pc25hLWlub3Zhc2ktc29sdXNpLW5ldHJhbC1rYXJib24tbWVudSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783568374),
 ('CKhwXhL0YLVT5q4DHOMiSe2I8SRH3Of7g1BLMIf4', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ4U1N2cEF6SDNxalY1OXl0QjN6c3RpUlptUFByNmU3QnZZWDdkSWZoIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783574964),
@@ -739,7 +739,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('LHuyURB05IlXg2iFBDMZNAfHjP6g3UzkQXgRPp7R', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJWeEd5T2I0Zm1pblhxRHdvNm9ESnB0TThGTEF4RERQQW1lNTdLT1VXIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmEiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783573646),
 ('LloQGdezHAblBB0HWaQ3sG7URhUBP4di6Zfqx2vY', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJpOUw4Y0V5SFVRWXE3NlUxZVNiaVdpTXA3N2VobXNTbFZqVmFtSHU0IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783570699),
 ('lO2SSjpFy3aKh31YTHO70oy1gdYL1Jvefzx1ZQMv', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJRMFJlY0dJNW9TeXI1WExGZUpqRXZqdDI1MDZuQjF0VE9RZlVxczBCIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC80Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783573309),
-('mKc1LgpaMb26WvAmVovGtNrTxTz8qvhHRctwU0NQ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJOeUVSYXVWanBBRzFQZUlsMFBIOHBoTTRXRllKbVBWRjFKUE9Ea0VNIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783574363),
+('mKc1LgpaMb26WvAmVovGtNrTxTz8qvhHRctwU0NQ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJOeUVSYXVWanBBRzFQZUlsMFBIOHBoTTRXRllKbVBWRjFKUE9Ea0VNIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC80Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783576362),
 ('MszUVYXIYWEOg6QadPJXd1J3s5OnMAG5oLEpdNwu', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJHUU5xRlJ0NTZnSHNZSHJGOGtMVUlXTTFQdmNXOVVIVk00V29nZVhYIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pc25hLWlub3Zhc2ktc29sdXNpLW5ldHJhbC1rYXJib24tbWVudSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783568867),
 ('MZ0SdGX6MxUd65a2ZxCKACptk2tZYNzOjYLtnjyT', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ0aG1OSEoxYldHTDhsd3pwY0FDeTB3cmZRc0llY09hTFBjQW8wU3FiIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC80Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783572823),
 ('p0olSI4E17TfjnaAfdjNhqWjbaU2r7U0EuQFkW8p', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJpTnh0WndqdEVGSHFEWExDRXByMlhYQkNpU0lUUEkxcjVrbHVLbjZBIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783574427),
@@ -837,7 +837,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8683 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8685 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9610,6 +9610,8 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8679, NULL, '3.224.234.70', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 12:21:31', '2026-07-09 12:21:31'),
 (8680, NULL, '98.91.77.46', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 12:26:26', '2026-07-09 12:26:26'),
 (8681, NULL, '98.91.77.46', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 12:29:24', '2026-07-09 12:29:24'),
-(8682, NULL, '23.23.253.54', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 12:30:26', '2026-07-09 12:30:26');
+(8682, NULL, '23.23.253.54', 'GET', '/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 'https://sastrabhinnekakarya.co.id/blog/digitalisasi-dokumen-lingkungan-di-era-modern', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 12:30:26', '2026-07-09 12:30:26'),
+(8683, NULL, '23.23.253.54', 'GET', '/portofolio/4', 'https://sastrabhinnekakarya.co.id/portofolio/4', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 12:52:42', '2026-07-09 12:52:42'),
+(8684, NULL, '98.91.77.46', 'GET', '/portofolio/4', 'https://sastrabhinnekakarya.co.id/portofolio/4', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 12:53:32', '2026-07-09 12:53:32');
 
 SET FOREIGN_KEY_CHECKS = 1;
