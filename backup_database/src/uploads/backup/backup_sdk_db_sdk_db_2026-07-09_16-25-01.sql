@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 16:13:01
+-- Dibuat   : 2026-07-09 16:25:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -706,6 +706,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('1vpty8e37N6v3MFRzTTpuQog69pFkzgKSLNHPw5S', NULL, '10.200.7.1', 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', 'eyJfdG9rZW4iOiJuVmN4RzRFMTdhWEtwa1lkaEphSWZsOFlISVJTWGFrWU9LdTMwV1NQIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyYS1tb2Rlcm4iLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783576678),
 ('2WEZUqmkhU5Skl3PIUHRUedWeY1jrQ4LXRHjMfps', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiIwQUhpRE90bFQ5dGV6QWVDb1Y0RkVITlg2TkJOWVp6R2JybW03ZFRpIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtYWphLWplbmlzLWplbmlzLWxpbWJhaC1iZXJiYWhheWEtZGFuLWJlcmEiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783577482),
 ('3b30FSfZLwIc3U7xGmtME6zWfJA3CRz7kDMw4c71', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJtMVpaOWJZd0N5aFRzdjF2Nm5MV1JGWWw0SmNKN1VJY1ROcU5ZdWRMIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783577978),
+('3fCS8z6Edqm9TUZJgVbvHxOJUYcrq9v1bfeiOEXL', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiI3TG1oWGtiZzV0dWY3azdXdXEzSVFzYUhrM3d1RWNlektMdFkxS0xZIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783588759),
 ('4Rz1LMx2Xb6SOUZad5sc6c8VLQSz5GPyxyNFIKON', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ3YUhvWnhtVWlhM0lCV1BoVGdFOFJETDgwUngwbVhmaEprb3JtVldsIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783585841),
 ('5s2l6WTdIB2ZoQtJYzffL7dnNUUToh82W0iKMBHc', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJoejFpamVYa3RRTjdRd1dLaG5iUTc0N0FoSlJHWVlmZjh4TXpBUHNOIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783587210),
 ('6hIbmiU0k6hMUtsYfppHssmq0r7ANk5XMS88Wn8V', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJUSVUzTEtOalhJdDFPMW5rUUh4UFRBUlp0Y3VzWE93WkFGeGhXMzJ1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783587338),
@@ -860,7 +861,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8851 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8852 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9803,6 +9804,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8847, NULL, '3.224.234.70', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 16:03:16', '2026-07-09 16:03:16'),
 (8848, NULL, '23.23.253.54', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 16:03:39', '2026-07-09 16:03:39'),
 (8849, NULL, '23.23.253.54', 'GET', '/blog/konsultasi-publik-amdal', 'https://sastrabhinnekakarya.co.id/blog/konsultasi-publik-amdal', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 16:03:39', '2026-07-09 16:03:39'),
-(8850, NULL, '23.23.253.54', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 16:04:04', '2026-07-09 16:04:04');
+(8850, NULL, '23.23.253.54', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 16:04:04', '2026-07-09 16:04:04'),
+(8851, NULL, '34.38.191.235', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 16:19:19', '2026-07-09 16:19:19');
 
 SET FOREIGN_KEY_CHECKS = 1;
