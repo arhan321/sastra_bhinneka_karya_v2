@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-10 02:48:02
+-- Dibuat   : 2026-07-10 03:00:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -723,6 +723,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('7NUsl52AO6RNXIbkMSA2a9hPRpC4LQNjsAaAipoz', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJkWkM2cks2ejlHR3Q0Q3prbHJiWEtLeDBaMldITzF0Y1RWMFlmRzlvIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783615713),
 ('7x3dPXfgM9yxSt1ulmEAPMvJpsg2JLzL45JB1XA5', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJDSDJKTloxcTkxZlRyVTV0dWI3YWNnbHd4RERMeGkyMWw5QWR6S2MwIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783615263),
 ('8CJPJh9iqdbA4GntcVYGZq7rzQIzdnEHKvZdCvL5', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJQNFF4V2V6NjdNT1lEUHBjb1BTT0FsbjR3ZWM3Mmd3eVNXczFxbDFIIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783615395),
+('9aLmwN75B6ZI5JRmlLkSpQDfFonsKh1dWPGuoBmR', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJpMmlxSW0wcTBwNGh3dTBXc3VDTmhwcHV4RE1PNkdzdE5kZU41bHZzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783626832),
 ('AILjCUx6u9eu1gmx64ob9ZdgCvCfMqFSBLVDWKbx', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJQQmZVMmI4OGtKZnVPbG8wWmZlRW1ieGdVaDFxQzhBWE1CVzRXWEZUIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783615185),
 ('AWKDt7DkfONHU4mkAsOOn7FQ6EWbfws8wpD92yHP', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJseFJSYkV3WTNYUU1CRjVHSmgwNkVjRlFJRTQ5Y0dVNFN4UUpib2ZMIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783620148),
 ('bHWMmXtAraJIivSdvDwSNeuPTAqp2iIBIQ1B2hx8', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJjY2phVGRoZWhPM25pVFNCSENJUlkxNWplQ0JvRkN2NERlY1JWMlc3IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783615843),
@@ -891,7 +892,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=9578 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9579 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -10567,6 +10568,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (9574, NULL, '23.23.253.54', 'GET', '/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 'https://sastrabhinnekakarya.co.id/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-10 01:35:31', '2026-07-10 01:35:31'),
 (9575, NULL, '34.76.35.232', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-10 01:47:22', '2026-07-10 01:47:22'),
 (9576, NULL, '3.224.234.70', 'GET', '/portofolio', 'https://sastrabhinnekakarya.co.id/portofolio', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-10 02:01:15', '2026-07-10 02:01:15'),
-(9577, NULL, '52.167.144.159', 'GET', '/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 'https://sastrabhinnekakarya.co.id/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-10 02:16:56', '2026-07-10 02:16:56');
+(9577, NULL, '52.167.144.159', 'GET', '/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 'https://sastrabhinnekakarya.co.id/blog/apa-itu-kajian-teknis-dan-standar-teknis-dalam-dokumen-pertek', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-10 02:16:56', '2026-07-10 02:16:56'),
+(9578, NULL, '66.93.210.92', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36', NULL, '2026-07-10 02:53:52', '2026-07-10 02:53:52');
 
 SET FOREIGN_KEY_CHECKS = 1;
