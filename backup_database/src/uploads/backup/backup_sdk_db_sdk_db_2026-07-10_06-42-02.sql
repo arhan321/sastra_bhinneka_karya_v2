@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-10 06:30:02
+-- Dibuat   : 2026-07-10 06:42:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -777,6 +777,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('k5zVqaEUSNLWcP9bWY3HRv8B4RN4ZGXfxkl60pfA', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiIwazBEQm5Yc0lGVnduNnpBT1RXRWxRRXVWSGNTbm03Z3Nxd3ViQ3NUIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC83Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783615263),
 ('kB4nnMGk8r20CCdtdzONCJqO8Qyao6QOogs04yE3', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ6eHJlQWxoSVBSU2xiN1JtZlJDTlVpUHR0c0hib1R6NEhUaUdJVVF6IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783615185),
 ('Kl69R9I4hd9oUGMzOEZ55HCXqPr2mXhyFG1BVfYf', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ1UDZMZHpuT2pCTDBzbTdRdnJHVVkydm9DRm9TTDc1bjJsVVBEYUZsIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC90ZW50YW5nIiwicm91dGUiOiJhYm91dCJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783615826),
+('kUzKnO672pgRLIWixqLqRXLsPqdQvWxMxObruiyQ', NULL, '10.200.7.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJ0c1gzNW1ZNXU4dUM3YnlqcFZ5blkxQzJSWk1wcVVSWGJZSzJwelpwIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783640134),
 ('L6qWKNLgh9Ce99AQhnerq3M0dYKQWKgCPj8pT8am', NULL, '10.200.7.1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:70.0) Gecko/20100101 Firefox/70.0', 'eyJfdG9rZW4iOiJ0ZGF6TFNmaXBpY1Q0UXVwT1R3U2N1dVljR3JoUzVxUVRJdzh3NXZFIiwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783628425),
 ('l8943SrQyKeY3VfJhsM3dD5I2Hf3FuFSBiQW2KEu', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ0NE1LMWlLcVJjU2hiRG5vZE8xSXA1endFaGZtbEo0S2M0QkQxMUxMIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783615185),
 ('laM4l54FCodCK1QX2jxFCJXfzmHmS8LnmkGgkuML', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ4N3RVTGQ2Y3ZvRldtUUdXcTdwcHZjd2dPOHV3Qm4ydDBMYjc0OVVZIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtaXR1LWthamlhbi10ZWtuaXMtZGFuLXN0YW5kYXItdGVrbmlzLWRhbGFtLWRva3VtZW4tcGVydGVrIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783629316),
@@ -809,6 +810,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('pBEmmhrlP7548ArwlWpUZyDRihExIWzsQwoyoPb0', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJrblZJcXVhc1pUVHc0V0pMTjlLN1pCTE5CR1RLR3pUdEJNSVQxbjVCIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9rb25zdWx0YXNpLXB1Ymxpay1hbWRhbCIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783615843),
 ('peKsrn2Q66TkX305nty1czbWLJThKnsnKEdIKmpJ', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJPSWNnV2ZTcnowSUhHQTk5bGtMa2xwRENKTndsb05jUWJ3RDVzeXB1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9rb25zdWx0YXNpLXB1Ymxpay1hbWRhbCIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783615399),
 ('pfEbfTfpZSV0nlsPyTxbfIBgDvdAcjUrjrxtVdDp', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJSV3J0YnNlck5HYUp1Z2hLQmt6dlFFODc5c2I3M0FGdFU3MVRHOU1pIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783615783),
+('PqyRV05GZ3fHrde4swc3T7NadFZpt3LfpngaUGA6', NULL, '10.200.7.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'eyJfdG9rZW4iOiJDZTR2NVpzZjFIVm96emtNS0RwVmVjM2kzSUtNVEZualdwSUVZYXBKIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783640130),
 ('puROr6XBNAOVWXIHFGqhzFYjezeg9a6zSlWdx99T', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJ4T1NFZHd2MkRZNHI5WmtWdm1oTnJLeUxyMm55QTJpYU1SRVN4T1ViIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783615898),
 ('qcd4h5yJLDQ0nSkeXIBwN6zzldwOZQuQcmFvGa9U', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJOZGZQWHhWdmR2cHhMa2Jod2lPNENhbE5PaTJzOVBFQVptOE54S3ZzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kaWdpdGFsaXNhc2ktZG9rdW1lbi1saW5na3VuZ2FuLWRpLWVyIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783615396),
 ('qUaOZ1V6FtKjlAhXNLzGKklW1AY2KrNd1agyipTu', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJOQ2tOSnNpYVRvSWp1cGFUb1VLdDY5b2dZczAwTENjNnJhZ1NiaEpMIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9hcGEtaXR1LWthamlhbi10ZWtuaXMtZGFuLXN0YW5kYXItdGVrbmlzLWRhbGFtLWRva3VtZW4tcGVydGVrIiwicm91dGUiOiJibG9nLnNob3cifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783632314),
@@ -917,7 +919,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=9604 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9606 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -10621,6 +10623,8 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `full_url`, `status_code`, `user_agent`, `referer`, `created_at`, `updated_at`) VALUES
 (9601, NULL, '192.36.109.75', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.1', NULL, '2026-07-10 06:19:11', '2026-07-10 06:19:11'),
 (9602, NULL, '192.36.109.96', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.1', NULL, '2026-07-10 06:19:12', '2026-07-10 06:19:12'),
-(9603, NULL, '192.36.109.83', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.1', NULL, '2026-07-10 06:19:13', '2026-07-10 06:19:13');
+(9603, NULL, '192.36.109.83', 'GET', '/layanan', 'https://sastrabhinnekakarya.co.id/layanan', 200, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.1', NULL, '2026-07-10 06:19:13', '2026-07-10 06:19:13'),
+(9604, NULL, '193.148.56.61', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://duckduckgo.com/', '2026-07-10 06:35:30', '2026-07-10 06:35:30'),
+(9605, NULL, '193.148.56.61', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', NULL, '2026-07-10 06:35:34', '2026-07-10 06:35:34');
 
 SET FOREIGN_KEY_CHECKS = 1;
