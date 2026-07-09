@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 10:54:02
+-- Dibuat   : 2026-07-09 11:06:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -740,6 +740,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('cNcd3NcFx6nVnhAYMwwOdMkcBiQuCTtDu8A9e0Bk', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJhSmVrOHRYNHRqOXNqcXlJakZhVkRIREVYUGRKdVR1ZGVuT1hkWUtXIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783552947),
 ('d5OjxN2ZkgF29w7u1J3ZIQWS3d0DMGGFjL7S2BmY', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiJjSUhCTFZlQUVuRVk2MEpEYklMMEx1OGJpZUdCcnZzRGh2Z0hpSG9NIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783569200),
 ('DsVN4LXbIAisGbTqvt9UIYVtYjswJ9W56kH2CKWW', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJoWHA2a21aYktqZWZoVVBqS2dmWmRwRGdYaGtickhyOTlma2I2d1dtIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC83Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783548150),
+('dtQjmTJujVFYNyLZAmkRlOCuHzh3F0XPtFS0nUvh', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJaa3hXSGtERlBWdTk0QUV2QjZnNFFXNU9zcXlLWkM3OVZBdkR0clZPIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pc25hLWlub3Zhc2ktc29sdXNpLW5ldHJhbC1rYXJib24tbWVudSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783569575),
 ('EkR1QMXwZ1bkF0j81XNbiB4aYxRMYy58lg5slP0Z', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiIxSzQ3Q0h2WXlIRmV3TmhFTnNqcXVGNVQxZWM2dFR4NWVQSGIzYkttIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC83Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783545030),
 ('EnbI6wotbtChHJ7oxPJWxbUr2JGVjBpHuEntbm7Z', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJCVHVuV3ZuT09UVGFqTExFbFpvbWJWWGlQZGRCUFAwUnBud2hlRkVFIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9pc25hLWlub3Zhc2ktc29sdXNpLW5ldHJhbC1rYXJib24tbWVudSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783568318),
 ('fnKHVBvT31sZYwTU9VO4v6fH8jurafwbcXL092xU', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJKR1dIZzRUNFlvRUR3a1MyendlRUo4N2w2ZUNyN29QWUp6YkQyYWNsIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783553285),
@@ -904,7 +905,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8616 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8617 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9610,6 +9611,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8612, NULL, '23.23.253.54', 'GET', '/blog/isna-inovasi-solusi-netral-karbon-menu', 'https://sastrabhinnekakarya.co.id/blog/isna-inovasi-solusi-netral-karbon-menu', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 10:52:08', '2026-07-09 10:52:08'),
 (8613, NULL, '3.224.234.70', 'GET', '/blog/isna-inovasi-solusi-netral-karbon-menu', 'https://sastrabhinnekakarya.co.id/blog/isna-inovasi-solusi-netral-karbon-menu', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 10:52:24', '2026-07-09 10:52:24'),
 (8614, NULL, '35.241.166.201', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 10:53:20', '2026-07-09 10:53:20'),
-(8615, NULL, '52.167.144.21', 'GET', '/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-09 10:53:28', '2026-07-09 10:53:28');
+(8615, NULL, '52.167.144.21', 'GET', '/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 'https://sastrabhinnekakarya.co.id/blog/apa-aja-jenis-jenis-limbah-berbahaya-dan-beracun-b3', 200, 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36', NULL, '2026-07-09 10:53:28', '2026-07-09 10:53:28'),
+(8616, NULL, '98.91.77.46', 'GET', '/blog/isna-inovasi-solusi-netral-karbon-menu', 'https://sastrabhinnekakarya.co.id/blog/isna-inovasi-solusi-netral-karbon-menu', 404, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 10:59:35', '2026-07-09 10:59:35');
 
 SET FOREIGN_KEY_CHECKS = 1;
