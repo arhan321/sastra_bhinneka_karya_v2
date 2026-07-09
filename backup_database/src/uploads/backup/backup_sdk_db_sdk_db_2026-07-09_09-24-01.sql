@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 09:12:01
+-- Dibuat   : 2026-07-09 09:24:01
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -724,6 +724,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('9Szt2OdnujTpGckwlXilDmC6Nkm6yGpBkjqznHYG', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiIxV1J5WVlsOEJzbk05RVN1Q0h2UlhIZ215SmZtYlNuMmlwUDFwdzR0IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC83Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783547771),
 ('a7IEbkukkp5RftGc23sGpCAkDBbhop9YFlRv6n4l', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJLUTdSc0VtMkxRMFBNY0thR1VOREdFaVpnaWpLRGNrSlRYT3NhNGJjIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC83Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783544583),
 ('b4m810a2ZRGRLnnlvoOotoHvVi64pCwopyIMp690', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJQN3d4S3NvUlVqRVRKcThHaGhKcjF6WHNNM1F5MG1LMDJibVhTU1A1IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kYW1wYWstcGVtYnVhbmdhbi1saW1iYWgtaW5kdXN0cmktdGVyaGFkYXAtdGFuYWgiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783562066),
+('blzXFUtKofGStPO3MMRaOwnu1b92htv0btI18tC9', NULL, '10.200.7.1', 'python-requests/2.32.5', 'eyJfdG9rZW4iOiJicU5GUHd4WEUzTmJjVFFWVlB0T2ljUHZiakVMUmpLSm5OMktYNHRyIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783563199),
 ('BQKsUob8LkN010I6zTdBKVDn1Dc2tCxg68NLAagy', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJISm0xem1tVTlIc1Y2enZOdWFhNnpoNmhrc21zZ1RXcDhMSjlRR2l2IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783549647),
 ('buZGTALteUIPmB43fnOwYMt7rnaKto50wwejcKXD', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJZWUs4elozcGxtQVN6Q254OWZwQXlqZUVXTTZaYkNUbU1PRnkzZjJhIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvXC83Iiwicm91dGUiOiJwb3J0Zm9saW8uc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783544082),
 ('c9VzGHcb60na8aPxbqatFK5as0x3prwIgdtSqppV', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJudWtDSjRncnRmQjFYVXZwZnZsaUFYTkFHa1o1VDU5MFBWZHNqdzRGIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9kYW1wYWstcGVtYnVhbmdhbi1saW1iYWgtaW5kdXN0cmktdGVyaGFkYXAtdGFuYWgiLCJyb3V0ZSI6ImJsb2cuc2hvdyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783562126),
@@ -872,7 +873,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8565 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8566 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -9525,6 +9526,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (8561, NULL, '98.91.77.46', 'GET', '/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 'https://sastrabhinnekakarya.co.id/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 08:59:27', '2026-07-09 08:59:27'),
 (8562, NULL, '23.23.253.54', 'GET', '/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 'https://sastrabhinnekakarya.co.id/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 09:00:20', '2026-07-09 09:00:20'),
 (8563, NULL, '23.23.253.54', 'GET', '/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 'https://sastrabhinnekakarya.co.id/blog/dampak-pembuangan-limbah-industri-terhadap-tanah', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 09:02:24', '2026-07-09 09:02:24'),
-(8564, NULL, '35.205.114.199', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 09:10:20', '2026-07-09 09:10:20');
+(8564, NULL, '35.205.114.199', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 09:10:20', '2026-07-09 09:10:20'),
+(8565, NULL, '34.77.217.12', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 09:13:19', '2026-07-09 09:13:19');
 
 SET FOREIGN_KEY_CHECKS = 1;
