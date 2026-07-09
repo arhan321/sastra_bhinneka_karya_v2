@@ -1,7 +1,7 @@
 -- --------------------------------------------------
 -- AUTO DATABASE BACKUP
 -- Database : sdk_db
--- Dibuat   : 2026-07-09 21:29:01
+-- Dibuat   : 2026-07-09 21:41:02
 -- --------------------------------------------------
 
 SET NAMES utf8mb4;
@@ -734,6 +734,7 @@ INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, 
 ('hCaBzbB7dQUrSpYlnRR8YFj0FL360MDhAYHJtbEO', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJoWUVYQVk1RzZlYjN6a0hPSmJoWDgxbENkV1hkYlN2VnhuQXN0ZzJIIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783604427),
 ('hGhtr0lXVhN7UHMyUPT2ic9ROlPb4lvzJ3pI5YBs', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJLcXdpTm9lMUdLdDd6QmRWVmdqczBUVWZuUlBlR2M1ZTBIZGxVZVFLIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9wb3J0b2ZvbGlvIiwicm91dGUiOiJwb3J0Zm9saW8ifSwiX2ZsYXNoIjp7Im9sZCI6W10sIm5ldyI6W119fQ==', 1783601743),
 ('hMMWZTxA7Dc0DAWLQXNresGXMBFb6YkmSrAxz0AG', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJmdWVHdUlKb1VuY0ptZXdXY1BNcFN6aWFxeXlPanRDZXJzTHh2QnE3IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9rb25zdWx0YXNpLXB1Ymxpay1hbWRhbCIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783597668),
+('Hv3CmESvPgDga8WFC7tNbBnCG2UEvaPAuvZwNSvb', NULL, '10.200.7.1', 'OI-Crawler/Nutch (https://openintel.nl/webcrawl/)', 'eyJfdG9rZW4iOiJ4WndrdlZZeUk2YVpZc3pZY0E5alJYeHBHZVg0Zzhla1VxRkx5SFVUIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkIiwicm91dGUiOiJob21lIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783607369),
 ('iiarHBvV7F9esPyzSA1T1CEoUHey02KOT7LZ0m5k', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJKQmhxbDhpU216Q2d5U2p6Uzk3YlZ6YlZTMVV4SzlYU2lsR2tONlEzIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nXC9haXItbGltYmFoLWRhbi1wZW1hbmZhYXRhbi1rZW1iYWxpLXNhbXBhaC1yZXVzZSIsInJvdXRlIjoiYmxvZy5zaG93In0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783599568),
 ('iOmNYrSSRY5JZJymVkhe7jb5EKJsYVCuCAzsrb3J', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJzYzZrRDg0QXV6QkxndDZWSlpYRHQ5MUFqQlJyQW5QMmRCSFVnZWV4IiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9ibG9nIiwicm91dGUiOiJibG9nIn0sIl9mbGFzaCI6eyJvbGQiOltdLCJuZXciOltdfX0=', 1783604166),
 ('iVdWytqoGI2pmCiyMj0G7w1WombT3IdnSkfM0po7', NULL, '10.200.7.1', 'Mozilla/5.0 (compatible)', 'eyJfdG9rZW4iOiJmeG9oRkROYlpzaWFOak1aUGM1UDZpNEQ4YjVvWVJtM0JBZDMyUWxJIiwiX3ByZXZpb3VzIjp7InVybCI6Imh0dHBzOlwvXC9zYXN0cmFiaGlubmVrYWthcnlhLmNvLmlkXC9sYXlhbmFuIiwicm91dGUiOiJzZXJ2aWNlcyJ9LCJfZmxhc2giOnsib2xkIjpbXSwibmV3IjpbXX19', 1783605431),
@@ -884,7 +885,7 @@ CREATE TABLE `visitor_logs` (
   KEY `visitor_logs_ip_address_index` (`ip_address`),
   KEY `visitor_logs_path_index` (`path`(768)),
   CONSTRAINT `visitor_logs_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=9385 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9386 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ----------------------------
 -- Records of visitor_logs
@@ -10365,6 +10366,7 @@ INSERT INTO `visitor_logs` (`id`, `user_id`, `ip_address`, `method`, `path`, `fu
 (9381, NULL, '34.76.121.202', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 21:12:20', '2026-07-09 21:12:20'),
 (9382, NULL, '34.140.77.94', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 21:13:20', '2026-07-09 21:13:20'),
 (9383, NULL, '34.77.191.38', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'python-requests/2.32.5', NULL, '2026-07-09 21:17:20', '2026-07-09 21:17:20'),
-(9384, NULL, '3.224.234.70', 'GET', '/blog', 'https://sastrabhinnekakarya.co.id/blog', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 21:28:38', '2026-07-09 21:28:38');
+(9384, NULL, '3.224.234.70', 'GET', '/blog', 'https://sastrabhinnekakarya.co.id/blog', 200, 'Mozilla/5.0 (compatible)', NULL, '2026-07-09 21:28:38', '2026-07-09 21:28:38'),
+(9385, NULL, '130.89.144.171', 'GET', '/', 'https://sastrabhinnekakarya.co.id', 200, 'OI-Crawler/Nutch (https://openintel.nl/webcrawl/)', NULL, '2026-07-09 21:29:29', '2026-07-09 21:29:29');
 
 SET FOREIGN_KEY_CHECKS = 1;
